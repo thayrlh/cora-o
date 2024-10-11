@@ -1,0 +1,62 @@
+html, body {
+    font-family: sans-serif;
+    background-color: #fa90d1;
+    color: #eee;
+}
+
+
+h2,h1{
+    color: #71155c;
+    font-size: 23px;
+}
+
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    opacity: 0.2;
+}
+
+
+div {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+.animationFadeInFadeOut {
+    animation: fadeInFadeOut 1s linear infinite;
+  }  
+
+
+    @keyframes fadeInFadeOut {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+
+
+  }
+  .animationContent::after {
+    content: "";
+    animation: promocao 2s linear infinite;
+  }
+
+
+
+  
+
+
+
